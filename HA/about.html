@@ -9,17 +9,58 @@
 <body>
     <header>
         <img src="weg.png" alt="Jan Zorn Foto" class="profile-pic">
-        
     </header>
 
     <section id="about">
         <h2>Wenn zu zurück willst.</h2>
-        
         <a href="index.html">
-            <img src="push.png">
+            <img src="push.png" alt="Zurück">
         </a>
     </section>
 
+    <section id="form">
+        <h2>Kontaktformular</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Nachricht:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <input type="submit" value="Senden">
+        </form>
+    </section>
+
+    <section id="table">
+        <h2>Meine Fähigkeiten</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fähigkeit</th>
+                    <th>Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Anfägner</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Anfägner</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Anfänger</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="youtube">
+        <h2>YouTube-Video</h2>
+        <iframe width="500" height="300" src="https://www.youtube.com/watch?v=M-43pOqheMY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
 
     <footer>
         <p>&copy; 2024 Jan Zorn</p>
